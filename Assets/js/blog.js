@@ -23,14 +23,16 @@ const postBlog = () => {
         });
 
         blogContainer.appendChild(fragment);
+
+    
     }
 };
 
 postBlog();
 
 const clearButton = document.querySelector('#clear');
+const blogContainer = document.querySelector('#blog-post');
+
 clearButton.addEventListener('click', () => {
     blogContainer.innerHTML = '';
 });
-
-clearButton();
