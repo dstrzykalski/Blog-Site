@@ -6,6 +6,9 @@
     text-align: center;
     font-weight: bolder;
     justify-content: center;
+    flex-direction: row;
+    flex-wrap: auto;
+    
 }
 
 body {
@@ -14,13 +17,7 @@ body {
     margin: 10px;
     padding: 10px;
     justify-content: center;
-}
-
-input {
-    justify-content: center;
-    margin: 10px;
-    padding: 10px;
-    font-size: 10px;
+    text-align: center;
 }
 
 h4 {
@@ -37,4 +34,15 @@ border: 1px solid black;
     background-color: lightblue;
     padding: 10px;
     text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: above;
+}
+
+input[type="text"] {
+    display: block;
+    margin-bottom: 10px;
+    text-align: above;
 }
